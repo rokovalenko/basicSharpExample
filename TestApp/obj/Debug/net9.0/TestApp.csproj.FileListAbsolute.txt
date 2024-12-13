@@ -52,3 +52,5 @@
 /home/rk/RiderProjects/TestApp/TestApp/bin/Debug/net9.0/YamlDotNet.dll
 /home/rk/RiderProjects/TestApp/TestApp/bin/Debug/net9.0/FluentResults.dll
 /home/rk/RiderProjects/TestApp/TestApp/obj/Debug/net9.0/TestApp.sourcelink.json
+/home/rk/RiderProjects/TestApp/TestApp/bin/Debug/net9.0/TestApp.User.dll
+/home/rk/RiderProjects/TestApp/TestApp/bin/Debug/net9.0/TestApp.User.pdb

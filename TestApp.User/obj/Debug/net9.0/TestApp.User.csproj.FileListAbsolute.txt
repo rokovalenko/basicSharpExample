@@ -1,0 +1,16 @@
+/home/rk/RiderProjects/TestApp/TestApp.User/bin/Debug/net9.0/TestApp.User.deps.json
+/home/rk/RiderProjects/TestApp/TestApp.User/bin/Debug/net9.0/TestApp.User.dll
+/home/rk/RiderProjects/TestApp/TestApp.User/bin/Debug/net9.0/TestApp.User.pdb
+/home/rk/RiderProjects/TestApp/TestApp.User/bin/Debug/net9.0/FluentResults.dll
+/home/rk/RiderProjects/TestApp/TestApp.User/bin/Debug/net9.0/FluentResults.xml
+/home/rk/RiderProjects/TestApp/TestApp.User/obj/Debug/net9.0/TestApp.User.csproj.AssemblyReference.cache
+/home/rk/RiderProjects/TestApp/TestApp.User/obj/Debug/net9.0/TestApp.User.GeneratedMSBuildEditorConfig.editorconfig
+/home/rk/RiderProjects/TestApp/TestApp.User/obj/Debug/net9.0/TestApp.User.AssemblyInfoInputs.cache
+/home/rk/RiderProjects/TestApp/TestApp.User/obj/Debug/net9.0/TestApp.User.AssemblyInfo.cs
+/home/rk/RiderProjects/TestApp/TestApp.User/obj/Debug/net9.0/TestApp.User.csproj.CoreCompileInputs.cache
+/home/rk/RiderProjects/TestApp/TestApp.User/obj/Debug/net9.0/TestApp.User.sourcelink.json
+/home/rk/RiderProjects/TestApp/TestApp.User/obj/Debug/net9.0/TestApp..BE9BB154.Up2Date
+/home/rk/RiderProjects/TestApp/TestApp.User/obj/Debug/net9.0/TestApp.User.dll
+/home/rk/RiderProjects/TestApp/TestApp.User/obj/Debug/net9.0/refint/TestApp.User.dll
+/home/rk/RiderProjects/TestApp/TestApp.User/obj/Debug/net9.0/TestApp.User.pdb
+/home/rk/RiderProjects/TestApp/TestApp.User/obj/Debug/net9.0/ref/TestApp.User.dll

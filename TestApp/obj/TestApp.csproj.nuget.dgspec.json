@@ -4,14 +4,14 @@
     "/home/rk/RiderProjects/TestApp/TestApp/TestApp.csproj": {}
   },
   "projects": {
-    "/home/rk/RiderProjects/TestApp/TestApp/TestApp.csproj": {
+    "/home/rk/RiderProjects/TestApp/TestApp.User/TestApp.User.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rk/RiderProjects/TestApp/TestApp/TestApp.csproj",
-        "projectName": "TestApp",
-        "projectPath": "/home/rk/RiderProjects/TestApp/TestApp/TestApp.csproj",
+        "projectUniqueName": "/home/rk/RiderProjects/TestApp/TestApp.User/TestApp.User.csproj",
+        "projectName": "TestApp.User",
+        "projectPath": "/home/rk/RiderProjects/TestApp/TestApp.User/TestApp.User.csproj",
         "packagesPath": "/home/rk/.nuget/packages/",
-        "outputPath": "/home/rk/RiderProjects/TestApp/TestApp/obj/",
+        "outputPath": "/home/rk/RiderProjects/TestApp/TestApp.User/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/rk/.nuget/NuGet/NuGet.Config"
@@ -46,7 +46,88 @@
           "dependencies": {
             "FastEndpoints": {
               "target": "Package",
-              "version": "[5.32.0, )"
+              "version": "[5.32.0.6-beta, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/rk/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rk/RiderProjects/TestApp/TestApp/TestApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rk/RiderProjects/TestApp/TestApp/TestApp.csproj",
+        "projectName": "TestApp",
+        "projectPath": "/home/rk/RiderProjects/TestApp/TestApp/TestApp.csproj",
+        "packagesPath": "/home/rk/.nuget/packages/",
+        "outputPath": "/home/rk/RiderProjects/TestApp/TestApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rk/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/rk/RiderProjects/TestApp/TestApp.User/TestApp.User.csproj": {
+                "projectPath": "/home/rk/RiderProjects/TestApp/TestApp.User/TestApp.User.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FastEndpoints": {
+              "target": "Package",
+              "version": "[5.32.0.6-beta, )"
             },
             "FastEndpoints.Swagger": {
               "target": "Package",

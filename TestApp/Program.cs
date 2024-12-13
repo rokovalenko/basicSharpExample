@@ -1,17 +1,11 @@
 using FastEndpoints;
 using FastEndpoints.Swagger;
-using Microsoft.EntityFrameworkCore;
-using TestApp.Data.Infra;
-using TestApp.Data.Repositories;
-using TestApp.Services;
+using TestApp.User;
 
 
 var builder = WebApplication.CreateBuilder();
 builder.Services.AddFastEndpoints().SwaggerDocument();
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseInMemoryDatabase("TestDb"));
-
-builder.Services.AddSingleton<IUserService, UserService>();
-builder.Services.AddScoped<UserRepository>();
+builder.Services.AddUserModuleDependencies();
 
 var app = builder.Build();
 

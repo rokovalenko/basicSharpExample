@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5pj7lT8N2g0=",
+  "dgSpecHash": "fgI/m90BoR0=",
   "success": true,
   "projectFilePath": "/home/rk/RiderProjects/TestApp/TestApp/TestApp.csproj",
   "expectedPackageFiles": [
-    "/home/rk/.nuget/packages/fastendpoints/5.32.0/fastendpoints.5.32.0.nupkg.sha512",
-    "/home/rk/.nuget/packages/fastendpoints.attributes/5.32.0/fastendpoints.attributes.5.32.0.nupkg.sha512",
-    "/home/rk/.nuget/packages/fastendpoints.messaging.core/5.32.0/fastendpoints.messaging.core.5.32.0.nupkg.sha512",
+    "/home/rk/.nuget/packages/fastendpoints/5.32.0.6-beta/fastendpoints.5.32.0.6-beta.nupkg.sha512",
+    "/home/rk/.nuget/packages/fastendpoints.attributes/5.32.0.6-beta/fastendpoints.attributes.5.32.0.6-beta.nupkg.sha512",
+    "/home/rk/.nuget/packages/fastendpoints.messaging.core/5.32.0.6-beta/fastendpoints.messaging.core.5.32.0.6-beta.nupkg.sha512",
     "/home/rk/.nuget/packages/fastendpoints.swagger/5.32.0/fastendpoints.swagger.5.32.0.nupkg.sha512",
     "/home/rk/.nuget/packages/fluentresults/3.16.0/fluentresults.3.16.0.nupkg.sha512",
     "/home/rk/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",

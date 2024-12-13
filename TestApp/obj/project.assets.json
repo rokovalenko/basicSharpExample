@@ -2,11 +2,11 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "FastEndpoints/5.32.0": {
+      "FastEndpoints/5.32.0.6-beta": {
         "type": "package",
         "dependencies": {
-          "FastEndpoints.Attributes": "5.32.0",
-          "FastEndpoints.Messaging.Core": "5.32.0",
+          "FastEndpoints.Attributes": "5.32.0.6-beta",
+          "FastEndpoints.Messaging.Core": "5.32.0.6-beta",
           "FluentValidation": "11.11.0"
         },
         "compile": {
@@ -23,7 +23,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "FastEndpoints.Attributes/5.32.0": {
+      "FastEndpoints.Attributes/5.32.0.6-beta": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/FastEndpoints.Attributes.dll": {
@@ -36,7 +36,7 @@
           }
         }
       },
-      "FastEndpoints.Messaging.Core/5.32.0": {
+      "FastEndpoints.Messaging.Core/5.32.0.6-beta": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/FastEndpoints.Messaging.Core.dll": {
@@ -567,19 +567,35 @@
             "related": ".xml"
           }
         }
+      },
+      "TestApp.User/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "FastEndpoints": "5.32.0.6-beta",
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "Microsoft.EntityFrameworkCore.InMemory": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TestApp.User.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestApp.User.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "FastEndpoints/5.32.0": {
-      "sha512": "NduYOi+MlmpAyZ/kuMWxJDpp/SNDrQLsfDIIPBYjE84W53/oGCutjwe093Zf80qSRp0CfA9qivL+FRZkawLn8w==",
+    "FastEndpoints/5.32.0.6-beta": {
+      "sha512": "1KMOKXbcfOzI8b+5AuffxL06cjQPObk2X8i9Y7SuJdkndNnjYwurxaQbiKE/BIDv/HyuXYTN4jTaLxpHwUsBIg==",
       "type": "package",
-      "path": "fastendpoints/5.32.0",
+      "path": "fastendpoints/5.32.0.6-beta",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "fastendpoints.5.32.0.nupkg.sha512",
+        "fastendpoints.5.32.0.6-beta.nupkg.sha512",
         "fastendpoints.nuspec",
         "icon.png",
         "lib/net6.0/FastEndpoints.dll",
@@ -592,28 +608,28 @@
         "lib/net9.0/FastEndpoints.xml"
       ]
     },
-    "FastEndpoints.Attributes/5.32.0": {
-      "sha512": "XCo661wVHEUyHKWPhO0sU+K6UHYvPYjKn2SSnyxgDrfZK2l04k9s6Cgx7E6ramO5LAUAob5cK9Lcm1OHWzrtIQ==",
+    "FastEndpoints.Attributes/5.32.0.6-beta": {
+      "sha512": "X0pPhVymxQBWJce6b17pYJURVOss6dA282M/h434SNOsLoDHuAB2/0bceYtY602DdG1DQGy0B7Z4DaGa/d4eew==",
       "type": "package",
-      "path": "fastendpoints.attributes/5.32.0",
+      "path": "fastendpoints.attributes/5.32.0.6-beta",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fastendpoints.attributes.5.32.0.nupkg.sha512",
+        "fastendpoints.attributes.5.32.0.6-beta.nupkg.sha512",
         "fastendpoints.attributes.nuspec",
         "icon.png",
         "lib/netstandard2.0/FastEndpoints.Attributes.dll",
         "lib/netstandard2.0/FastEndpoints.Attributes.xml"
       ]
     },
-    "FastEndpoints.Messaging.Core/5.32.0": {
-      "sha512": "hWXeN936xjXwxLugXZkqedODbPC5p6xjo3NxiVo8I/d+fTzVLqXhj+xmF82dkaDpZsFcpAxJ0BsX8pACAd04Gw==",
+    "FastEndpoints.Messaging.Core/5.32.0.6-beta": {
+      "sha512": "2E/ETRFhUN9EmliuA3FFbs3b69SdYUTBr9g0VQKiw1mLSQm1w9MLG/hhO7qjA0XIwqLq6Be5LAdQ9Pp/UfuqcA==",
       "type": "package",
-      "path": "fastendpoints.messaging.core/5.32.0",
+      "path": "fastendpoints.messaging.core/5.32.0.6-beta",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fastendpoints.messaging.core.5.32.0.nupkg.sha512",
+        "fastendpoints.messaging.core.5.32.0.6-beta.nupkg.sha512",
         "fastendpoints.messaging.core.nuspec",
         "icon.png",
         "lib/netstandard2.1/FastEndpoints.Messaging.Core.dll",
@@ -1589,15 +1605,21 @@
         "yamldotnet.16.2.0.nupkg.sha512",
         "yamldotnet.nuspec"
       ]
+    },
+    "TestApp.User/1.0.0": {
+      "type": "project",
+      "path": "../TestApp.User/TestApp.User.csproj",
+      "msbuildProject": "../TestApp.User/TestApp.User.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "FastEndpoints >= 5.32.0",
+      "FastEndpoints >= 5.32.0.6-beta",
       "FastEndpoints.Swagger >= 5.32.0",
       "FluentResults >= 3.16.0",
       "Microsoft.EntityFrameworkCore >= 9.0.0",
-      "Microsoft.EntityFrameworkCore.InMemory >= 9.0.0"
+      "Microsoft.EntityFrameworkCore.InMemory >= 9.0.0",
+      "TestApp.User >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1624,7 +1646,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/rk/RiderProjects/TestApp/TestApp.User/TestApp.User.csproj": {
+              "projectPath": "/home/rk/RiderProjects/TestApp/TestApp.User/TestApp.User.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1645,7 +1671,7 @@
         "dependencies": {
           "FastEndpoints": {
             "target": "Package",
-            "version": "[5.32.0, )"
+            "version": "[5.32.0.6-beta, )"
           },
           "FastEndpoints.Swagger": {
             "target": "Package",

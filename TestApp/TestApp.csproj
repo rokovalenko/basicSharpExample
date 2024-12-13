@@ -14,11 +14,15 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="FastEndpoints" Version="5.32.0" />
+      <PackageReference Include="FastEndpoints" Version="5.32.0.6-beta" />
       <PackageReference Include="FastEndpoints.Swagger" Version="5.32.0" />
       <PackageReference Include="FluentResults" Version="3.16.0" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TestApp.User\TestApp.User.csproj" />
     </ItemGroup>
 
 </Project>

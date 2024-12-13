@@ -1612,7 +1612,6 @@
       "packagesPath": "/home/rk/.nuget/packages/",
       "outputPath": "/home/rk/RiderProjects/TestApp/TestApp/obj/",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "/home/rk/.nuget/NuGet/NuGet.Config"
       ],
@@ -1637,7 +1636,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "all"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {

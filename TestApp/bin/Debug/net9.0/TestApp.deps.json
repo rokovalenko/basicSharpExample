@@ -10,6 +10,7 @@
         "dependencies": {
           "FastEndpoints": "5.32.0",
           "FastEndpoints.Swagger": "5.32.0",
+          "FluentResults": "3.16.0",
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Microsoft.EntityFrameworkCore.InMemory": "9.0.0"
         },
@@ -55,6 +56,18 @@
           "lib/net9.0/FastEndpoints.Swagger.dll": {
             "assemblyVersion": "5.32.0.0",
             "fileVersion": "5.32.0.0"
+          }
+        }
+      },
+      "FluentResults/3.16.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentResults.dll": {
+            "assemblyVersion": "3.16.0.0",
+            "fileVersion": "3.16.0.0"
           }
         }
       },
@@ -286,6 +299,7 @@
           }
         }
       },
+      "System.Threading.Tasks.Extensions/4.5.4": {},
       "YamlDotNet/16.2.0": {
         "runtime": {
           "lib/net8.0/YamlDotNet.dll": {
@@ -329,6 +343,13 @@
       "sha512": "sha512-wRFIpcqlNn5lBhc5AopyecBXwm/B+Nj5KLfbs4aXDcwaIsM4Dx09Uamgfxwht+VQGB5fkXUYTiRq9bVVbqXs/Q==",
       "path": "fastendpoints.swagger/5.32.0",
       "hashPath": "fastendpoints.swagger.5.32.0.nupkg.sha512"
+    },
+    "FluentResults/3.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VWacGzOyN9k7LOKqiNLnFvqTDLbFvepHlINdM3pPTD0YWI+a+VW/Q9gcx4gmJDpDZ32cAsczz5vmRjLCL5UOhA==",
+      "path": "fluentresults/3.16.0",
+      "hashPath": "fluentresults.3.16.0.nupkg.sha512"
     },
     "FluentValidation/11.11.0": {
       "type": "package",
@@ -525,6 +546,13 @@
       "sha512": "sha512-9VO43wD5IK9O79ZESXD44QtNhoWZi2/5oLHV2JbCd0dR6bJ+9SHqcn+LK3VJFvcRZjFry0JSNd6WBDQL+AH72A==",
       "path": "nswag.generation.aspnetcore/14.2.0",
       "hashPath": "nswag.generation.aspnetcore.14.2.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
     },
     "YamlDotNet/16.2.0": {
       "type": "package",
